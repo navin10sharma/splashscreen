@@ -46,6 +46,9 @@ To Create a splash and icon you need to Follow same Command as ionic 1 <br />
 ionic resources ios --splash <br /> 
 ionic resources android --splash <br />
 
+ionic resources ios --icon <br /> 
+ionic resources android --icon <br />
+
 
 
 
