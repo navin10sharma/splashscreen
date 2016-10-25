@@ -1,4 +1,4 @@
-# splashscreen  <br /> (Please Follow the following Setup to update Ionic Version and CLI)<br />
+#(Please Follow the following Setup and run Ionic2 App)<br />
 
 1.npm install -g ionic cordova <br />
 2.ionic info (It will check you current CLI version)<br />
@@ -23,6 +23,22 @@ ios-sim version: 5.0.8 <br />
 OS: Mac OS X Sierra <br />
 Node Version: v4.5.0 <br />
 Xcode version: Xcode 8.0 Build version 8A218a  <br />
+
+<h2>Please Follow the Follow Setps to Create Demo project : <h2><br />
+1.ionic start projectName --v2   {This command will get demo project and install all the dependencies } <br />
+2.cd projectName <br />
+3.ionic serve {it will run your project in browser} <br />
+
+<h2> To Run your app in simulator you need to follow below command </h1> <br/>
+1.ionic platform add ios/android {You need to add platform for which you want to make build}
+2.ionic build ios/android { it will build your apps for required platform}
+3.ionic run android/ios {it will open your apps in simulator but first you need to install 
+   Xcode and Android simulator you can also use Genymotion simulator for android it will be fast compare to 
+   Default android simulator}  </br>
+   
+4.ionic run ios --target='iPhone-6,10.0' { if your xcode install it will open your iphone 6 simulator }
+
+5.ionic run ios --device {if your device connected to machine it will open app in device as well }
 
 
 To Create a splash and icon you need to Follow same Command as ionic 1 <br />
